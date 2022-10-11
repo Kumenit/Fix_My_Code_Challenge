@@ -3,9 +3,9 @@
 User class
 """
 
+
 class User():
     """ Documentation """
-
     def __init__(self):
         """ Documentation """
         self.__email = None
@@ -24,7 +24,6 @@ class User():
 
 
 if __name__ == "__main__":
-
     u = User()
     u.email = "john@snow.com"
     print(u.email)
